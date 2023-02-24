@@ -1,0 +1,105 @@
+/* ========= start navbar =========  */
+.logo{
+    width: 50px;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff ;
+    background-color: #0b1520 ;
+}
+.navbar{
+    padding: 0;
+}
+nav form :nth-child(2):hover{
+    color: white !important;
+}
+nav form :nth-child(3):hover{
+    color: white !important;
+    border-color: white !important;
+}
+/* ========= end navbar =========  */
+
+/* ========= start header =========  */
+header{
+    background-image: url("../image/wraper.b44d33d6e7ee1ba8.png");
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+    font-size: 30px;
+    line-height: 38px;
+    color: #aaaaaa;
+    font-weight: 500;
+}
+@media (max-width:768px) {
+    header h1{
+        font-size: 27px;
+        line-height: 33px;
+
+    }
+}
+@media (max-width:550px) {
+    header h1{
+        font-size: 19px;
+        line-height: 23px;
+
+    }
+}
+header button:last-child:hover{
+    color: white !important;
+    border-color: white !important;
+}
+header button{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+/* ========= end header =========  */
+
+/* ========= start persomalized =========  */
+.shadow{
+    box-shadow: 0 .5rem 1rem #00000026!important;
+}
+.persomalized .card{
+    transition: .3s 0s all linear;
+}
+.persomalized .card:hover{
+    transform: scale(1.05);
+}
+/* ========= end persomalized =========  */
+
+
+/* ========= start recently =========  */
+.recently .image{
+    width: 100px;
+}
+.Strategy{
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    background-color: #7a8288;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+.recently .box{
+    transition: .3s 0s all linear;
+}
+.recently .box:hover{
+    transform: scale(1.05);
+}
+@media (max-width:768px) {
+    .recently h4{
+        font-size: 14px !important;
+        line-height: 17px !important;
+    }
+    .recently p{
+        font-size: 10px !important;
+        line-height: 14px !important;
+    }
+    .recently h3{
+        font-size: 16px !important;
+        line-height: 19px !important;
+    }
+}
+.box , .card{
+    cursor: pointer !important;
+}
+/* ========= end recently =========  */
